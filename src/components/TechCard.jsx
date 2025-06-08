@@ -59,6 +59,36 @@ export const TechCard = ({ name, exp, image }) => {
       from: "from-purple-400",
       via: "via-purple-500",
       to: "to-purple-600",
+    },
+    {
+      name: "postgresql",
+      from: "from-blue-800",
+      via: "via-blue-900",
+      to: "to-blue-950",
+    },
+    {
+      name: "mysql",
+      from: "from-sky-300",
+      via: "via-sky-400",
+      to: "to-sky-500",
+    },
+    {
+      name: "figma",
+      from: "from-neutral-700",
+      via: "via-neutral-800",
+      to: "to-neutral-900",
+    },
+    {
+      name: "git",
+      from: "from-neutral-700",
+      via: "via-neutral-800",
+      to: "to-neutral-900",
+    },
+    {
+      name: "postman",
+      from: "from-neutral-700",
+      via: "via-neutral-800",
+      to: "to-neutral-900",
     }
   ];
 

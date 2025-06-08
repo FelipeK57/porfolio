@@ -1,17 +1,10 @@
 import { TechCard } from "../components/TechCard";
 
-export const Inicio = () => {
+export const Skills = () => {
   return (
-    <div className="flex flex-col gap-4 items-center h-full max-w-sm md:max-w-lg mx-auto">
-      <div className="w-fit group text-slate-50 p-0.5 rounded-full border-transparent bg-clip-padding bg-gradient-to-br from-zinc-400 to-zinc-500 shadow-2xl shadow-indigo-500">
-        <span className="block font-medium bg-gradient-to-br from-slate-900 to-zinc-950 rounded-full px-3 py-1 bg-clip-padding">
-          Desarrollador Full Stack
-        </span>
-      </div>
-      <h3 className="text-slate-100 text-center text-sm">
-        Interfaz limpia, Backend confiable.
-      </h3>
-      <p className="font-semibold text-slate-50 text-lg">Lenguajes</p>
+    <div className="flex flex-col gap-2 items-center h-full max-w-sm md:max-w-lg mx-auto">
+      <p className="font-semibold text-slate-50 text-xl">Habilidades</p>
+      <p className="text-slate-300 text-lg">Lenguajes</p>
       <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
         <TechCard
           name="HTML"
@@ -39,9 +32,7 @@ export const Inicio = () => {
           exp={1}
         />
       </div>
-      <p className="font-semibold text-slate-50 text-lg">
-        Tecnologías Frontend
-      </p>
+      <p className="text-slate-300 text-lg">Tecnologías Frontend</p>
       <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
         <TechCard
           name="React"
@@ -54,7 +45,7 @@ export const Inicio = () => {
           exp={2}
         />
       </div>
-      <p className="font-semibold text-slate-50 text-lg">Tecnologías Backend</p>
+      <p className="text-slate-300 text-lg">Tecnologías Backend</p>
       <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
         <TechCard
           name="Django"
@@ -70,6 +61,32 @@ export const Inicio = () => {
           name="Node.js"
           image="https://icon.icepanel.io/Technology/svg/Node.js.svg"
           exp={1}
+        />
+      </div>
+      <p className="text-slate-300 text-lg">Bases de Datos</p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <TechCard
+          name="PostgreSQL"
+          image="https://icon.icepanel.io/Technology/svg/PostgresSQL.svg"
+          exp={2}
+        />
+        <TechCard
+          name="MySQL"
+          image="https://icon.icepanel.io/Technology/svg/MySQL.svg"
+          exp={2}
+        />
+      </div>
+      <p className="font-semibold text-slate-300 text-lg">Herramientas</p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <TechCard
+          name="Figma"
+          image="https://icon.icepanel.io/Technology/svg/Figma.svg"
+          exp={2}
+        />
+        <TechCard
+          name="Postman"
+          image="https://icon.icepanel.io/Technology/svg/Postman.svg"
+          exp={2}
         />
       </div>
     </div>
